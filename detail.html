@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>Forums</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="header">
+                <img src="forums-header-logo.png" />
+                <nav>
+                    <ul>
+                        <li><a href="home.html">< Back to home</a> </li>
+                    </ul>
+                </nav> 
+            </div>
+        </div> 
+        <div class="detail">
+            <h1>How to find the first non repeated character of given string?</h1>
+            <p>The answer here is d. So the point that strikes me is that it can be done in two
+                ways: for every index i loop i-1 times and check if that character occurs ever
+                again. But this is not efficient: growth of this method is O(N^2)where N is the
+                length of the string. Another possible good way could be if i could form a ttree
+                or any other ds such that i could order the character based on the weights(the
+                occurance count). This could take me just one loopof length N through the string
+                to form the structure. That is just O(N)+O(time to build tree or any ds) </p>
+                <p>viewed 624 times</p>
+                <p>3 answers submitted</p>
+                <p class="name">Marry Ham</p>
+                <img src="anonymous.jpg" width="50px" height="50px" class="avatar" />
+        </div>
+        <form class="feedback">
+                <input type="text" id="txt" class="input"> 
+                <input type="button" value="Reply" id="btnReply" class="btn">
+        </form>
+    </header>
+    <div class="footer">Forums &copy;Copyright 2019</div>
+</body>
+
+</html>
